@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formclass{
+    margin-top:100px;
+    border: 2px solid black;
+    padding:30px;
+    border-radius: 5%;
+    background-color: white;
+    width: 25%;
+}
+
+.selfbutton{
+    width: 100%;
+    background-color: rgb(56, 115, 224);
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+input{
+    margin-top: 5px;
+    width: 95%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline-color: #0096FF;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+.email{
+
+    margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+
+.password{
+    margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+
+.conpass{
+    margin-top: 10px;
+    margin-bottom: 20px ;
+}
+
+h3{
+    margin-top: 4px;
+    text-align: center;
+}
+
+.is-invalid{
+    border: 2px solid red;
+}
+
+
+.check{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

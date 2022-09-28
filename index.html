@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="hidden" style="display: none;">Signed Up Succesfully!</h3>
+            <div class="formclass" id="hiddenContainer">
+
+                <h3> Sign Up</h3>
+
+                <form>
+
+                    <div class="name">
+
+                        <label for="fname">Username:</label> <br>
+                        <input type="text" name="fName" id="name" placeholder="Username">
+                        <label style="display: none" id="username">Username must be between 3 and 25 characters</label>
+
+                    </div>
+
+                    <div class="email">
+                        <label for="femail">Email:</label><br>
+                        <input type="email" id="emails" name="femail" placeholder="hello@example.com">
+                    </div>
+
+                    <div class="password">
+                        <label for="fpass"> Password:</label><br>
+                        <input type="password" name="fpass" id="pass" placeholder="password">
+                        <div class="check" id="checkId">
+                            <div style="margin-right: 5px;"><input id="checkId" type="checkbox"></div>
+                            <div>Show Password</div>
+                        </div>
+
+                        <label style="display: none" id="passWarning">Password must has at least 8 characters that
+                            include at least 1 lowercase character, 1 uppercase character, 1 number, and 1 special
+                            character in (!@#$%^&*)</label>
+                    </div>
+
+                    <div class="conpass">
+                        <label for="fconpass">Confirm Password: </label><br>
+                        <input type="password" name="fconpass" id="pass" placeholder="confirm password">
+                    </div>
+
+                    <div class="submit">
+                        <button type="submit" id="submit" class="selfbutton">Sign Up</button>
+                    </div>
+                </form>
+
+            </div>
+
+
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
